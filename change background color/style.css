@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    font-family: 'dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    padding: 100px;
+}
+
+.card{
+    padding: 10px;
+    border: 1px solid;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+}
+
+.button{
+    align-self: center;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background: #d72880;
+}
+
