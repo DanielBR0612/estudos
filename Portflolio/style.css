@@ -77,6 +77,7 @@ main{
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    margin-right: 50px;
 }
 #logo{
     display: flex;
@@ -91,6 +92,8 @@ main{
     border-radius: 5px;
     background-color:#101026;
     box-sizing: border-box;
+    padding-right: 300px;
+    font-size: 1em;
 }
 #input-group button{
     background-color: #101026;
@@ -123,5 +126,23 @@ textarea:focus, input:focus{
 }
 
 button{
-    border: none;
+    border: none
+}
+
+#input-group span{
+    position: absolute;
+    left: 100;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#input-group input:valid ~ span,
+#input-group input:focus ~ span {
+    color:#00dfc4;
+    transform: translateX(10px) translateY(-20px);
+    font-size: 0.85em;
+    background:#101026;
 }
