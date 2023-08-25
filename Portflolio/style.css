@@ -135,7 +135,6 @@ button{
     padding: 10px;
     pointer-events: none;
     font-size: 1em;
-    text-transform: uppercase;
     transition: 0.5s;
 }
 
