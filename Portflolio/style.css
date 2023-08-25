@@ -49,6 +49,7 @@ body{
     margin-top: 200px;
     box-sizing: border-box;
     margin-left: 150px;
+    height: 500px;
 }
 .subtitulo{
     font-weight: lighter;
@@ -64,7 +65,7 @@ footer{
     padding: 50px;
 }
 main{
-    height: 45vh;
+    height: 61vh;
 }
 #footer-contacts{
     display:flex;
@@ -92,7 +93,7 @@ main{
     border-radius: 5px;
     background-color:#101026;
     box-sizing: border-box;
-    padding-right: 300px;
+    padding-right: 10px;
     font-size: 1em;
 }
 #input-group button{
@@ -144,4 +145,26 @@ button{
     transform: translateX(10px) translateY(-20px);
     font-size: 0.85em;
     background:#101026;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.area2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    font-family: 'poppins';
+    font-size:xx-large;
+    color: #fff;
+}
+
+.container{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 70px;
+    margin-left: 246px;
 }
